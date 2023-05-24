@@ -4,10 +4,10 @@ function modifyText(info,tab) {
 
     // Effectuez vos modifications sur le texte sélectionné ici
     const text = selectedText.toLowerCase();
-    const firstLetter = text.charAt(0)
-    const firstLetterCapitalize = firstLetter.toUpperCase()
-    const remainingLetters = text.slice(1)
-    const modifiedText = firstLetterCapitalize + remainingLetters
+    const firstLetter = text.charAt(0);
+    const firstLetterCapitalize = firstLetter.toUpperCase();
+    const remainingLetters = text.slice(1);
+    const modifiedText = firstLetterCapitalize + remainingLetters;
 
 
     // Remplacez le texte sélectionné par le texte modifié
