@@ -9,7 +9,6 @@ function modifyText(info,tab) {
     const remainingLetters = text.slice(1);
     const modifiedText = firstLetterCapitalize + remainingLetters;
 
-
     // Remplacez le texte sélectionné par le texte modifié
     const script = `
         document.execCommand("delete", false);
