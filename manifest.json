@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "RemoveMaj",
+  "version": "1.0",
+
+  "description": "Enlève les majuscules",
+
+  "permissions": [
+    "activeTab", 
+    "contextMenus", 
+    "scripting",
+    "contentSettings",
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": ["script.js"]
+  }
+}
